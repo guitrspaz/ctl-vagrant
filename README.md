@@ -1,6 +1,7 @@
 # CTL Development Machine
 
 ## Overview
+Vagrant development machine for CTL
 
 ## Installation
 1. Install [https://vagrantup.com](Vagrant)
