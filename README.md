@@ -14,5 +14,5 @@
 	~~~
 4. Run the CTL Development Machine
 	~~~
-	cd ctl-vagrant && vagrant up
+	cd ./ctl-vagrant && vagrant up
 	~~~
