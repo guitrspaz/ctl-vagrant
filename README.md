@@ -12,3 +12,7 @@
 	~~~
 	git clone git@github.com:guitrspaz/ctl-vagrant.git
 	~~~
+4. Run the CTL Development Machine
+	~~~
+	cd ctl-vagrant && vagrant up
+	~~~
