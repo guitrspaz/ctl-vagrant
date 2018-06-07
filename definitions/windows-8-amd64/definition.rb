@@ -13,7 +13,7 @@ Veewee::Session.declare({
     :iso_src => "http://care.dlservice.microsoft.com/dl/download/B/9/9/B999286E-0A47-406D-8B3D-5B5AD7373A4A/9600.16384.WINBLUE_RTM.130821-1623_X64FRE_ENTERPRISE_EVAL_EN-US-IRM_CENA_X64FREE_EN-US_DV5.ISO",
     :iso_download_timeout => "1000",
     :cpu_count => '1',
-    :memory_size=> '1024',
+    :memory_size=> '2048',
     :disk_size => '20280', :disk_format => 'VDI', :hostiocache => 'off',
 
     :floppy_files => [
@@ -27,13 +27,13 @@ Veewee::Session.declare({
     :boot_wait => "120",
     # after 50 seconds, hit these keys to not enter a product key and fully automate the install
     # if your machine is slower it may take more time
-    :boot_cmd_sequence => [ 
+    :boot_cmd_sequence => [
       '<Tab><Spacebar>'
     ],
 
     :ssh_login_timeout => "10000",
     # Actively attempt to ssh in for 10000 seconds
-    :ssh_user => "vagrant", :ssh_password => "vagrant", :ssh_key => "", 
+    :ssh_user => "vagrant", :ssh_password => "vagrant", :ssh_key => "",
     :ssh_host_port => "7233", :ssh_guest_port => "22",
     # And run postinstall.sh for up to 10000 seconds
     :postinstall_timeout => "10000",
