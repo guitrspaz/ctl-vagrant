@@ -40,6 +40,7 @@ Veewee::Session.declare({
    "puppet.sh",
    "vbox.sh",
    "parallels.sh",
+   "coldfusion.sh",
    "cleanup.sh"
   ],
   :postinstall_timeout => "10000"
